@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Joind our group', url="https://t.me/filmboxcommunity"
                                 )
                         ]
                     ]
@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Developers', url='https://t.me/Abintply'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/Captainjacksparrow0433/FILMBOXCOMMUNITY-v1')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Support our move group', url='https://t.me/filmboxcommunity')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
